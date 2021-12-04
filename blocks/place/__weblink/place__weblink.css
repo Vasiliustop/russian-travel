@@ -1,6 +1,6 @@
 .place__weblink {
   align-self: end;
-  max-width: 456px;;
+  max-width: 456px;
 }
 
 @media screen and (max-width: 760px)

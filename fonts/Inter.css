@@ -103,7 +103,7 @@
   font-weight: 600;
   font-display: swap;
   src: url(../fonts/Inter-SemiBoldItalic.woff2) format("woff2"),
-       url(../fonts/Inter-SemiBoldItalic.woff) format("woff")
+       url(../fonts/Inter-SemiBoldItalic.woff) format("woff");
 }
 
 @font-face {
