@@ -1,0 +1,28 @@
+.page {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  padding: 28px 48px 24px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1275px) {
+  .page  {
+    max-width: 1024px;
+    padding: 28px 0 24px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+  .page  {
+    max-width: 768px;
+    padding: 28px 0 24px;
+ }
+}
+
+@media screen and (max-width: 760px) {
+  .page  {
+    min-width: 320px;
+    padding: 8px 0 24px;
+  }
+}
