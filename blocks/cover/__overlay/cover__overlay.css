@@ -31,13 +31,13 @@
 }
 
 @media screen and (max-width: 1170px) {
-  .cover__overlay{
+  .cover__overlay {
      min-height: 640px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .cover__overlay  {
+  .cover__overlay {
    min-height: 480px;
   }
 }

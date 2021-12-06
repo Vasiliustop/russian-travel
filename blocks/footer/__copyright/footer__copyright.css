@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .footer__copyright  {
+  .footer__copyright {
     text-align: left;
     line-height: 1;
   }
