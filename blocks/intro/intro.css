@@ -6,21 +6,21 @@
   margin-left: 100px;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1170px) {
   .intro {
     width: calc(100% - 96px);
     margin: 0 auto;
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .intro {
     width: calc(100% - 48px);
     margin: 0 auto;
 }
  }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 720px) {
   .intro {
     width: calc(100% - 32px);
     margin: 0 auto;

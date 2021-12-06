@@ -1,5 +1,5 @@
 .place {
-  width: 100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 460px 1fr;
   row-gap: 40px;
@@ -11,23 +11,27 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1170px) {
   .place {
     row-gap: 32px;
+    grid-template-columns: 440px 1fr;
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .place {
-    row-gap: 28px;
-    margin-bottom: 72px;
- }
+    row-gap: 48px;
+    margin-bottom: 73px;
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+  }
 }
 
-@media screen and (max-width: 893px) {
+@media screen and (max-width: 720px) {
   .place {
      grid-template-columns: repeat(1, auto);
      min-width: 320px;
      margin-bottom: 50px;
+     row-gap: 32px;
   }
 }

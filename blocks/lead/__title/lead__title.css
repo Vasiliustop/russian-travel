@@ -10,19 +10,19 @@
   text-align: center;
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 1170px) {
   .lead__title {
     width: 80%;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .lead__title {
     width: calc(100% - 48px);
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 720px) {
   .lead__title {
     min-width: calc(100% - 32px);
     margin: 0 16px 16px 16px;

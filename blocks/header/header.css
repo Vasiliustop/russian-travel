@@ -6,21 +6,21 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1170px) {
   .header {
     max-width: calc(100% - 96px);
     padding-bottom: 48px;
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .header {
     max-width: calc(100% - 48px);
     padding-bottom: 48px;
  }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 720px) {
   .header  {
     padding-bottom: 48px;
     max-width: calc(100% - 32px);

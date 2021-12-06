@@ -1,17 +1,18 @@
 .content {
   display: grid;
   grid-row-gap: 92px;
+  width: 100%;
 }
 
-@media screen and (max-width: 981px)
-{
+@media screen and (max-width: 900px)
+ {
   .content {
     grid-row-gap: 88px;
   }
 }
 
-@media screen and (max-width: 560px)
-{
+@media screen and (max-width: 720px)
+ {
   .content {
     grid-row-gap: 64px;
   }

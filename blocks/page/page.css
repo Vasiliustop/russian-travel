@@ -4,23 +4,24 @@
   margin: 0 auto;
   padding: 28px 48px 24px;
   box-sizing: border-box;
+  min-width: 320px;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1170px) {
   .page  {
     max-width: 1024px;
     padding: 28px 0 24px;
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .page  {
     max-width: 768px;
     padding: 28px 0 24px;
  }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 720px) {
   .page  {
     min-width: 320px;
     padding: 8px 0 24px;
