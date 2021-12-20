@@ -6,6 +6,7 @@
   color: #ffffff;
   text-decoration: none;
   font-family: "Inter", "Arial", sans-serif;
+  width: min-content;
 }
 
 .footer__link:last-child {
